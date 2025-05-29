@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-atomic-tangerine-900: hsl(26, 83%, 95%);
+    --color-atomic-tangerine-800: hsl(25, 86%, 89%);
+    --color-atomic-tangerine-700: hsl(24, 89%, 83%);
+    --color-atomic-tangerine-600: hsl(24, 89%, 77%);
+    --color-atomic-tangerine-500: hsl(24, 94%, 71%);
+    --color-atomic-tangerine-400: hsl(22, 94%, 58%);
+    --color-atomic-tangerine-300: hsl(21, 90%, 44%);
+    --color-atomic-tangerine-200: hsl(22, 92%, 29%);
+    --color-atomic-tangerine-100: hsl(20, 90%, 15%);
+
+    --color-coral-900: hsl(17, 100%, 94%);
+    --color-coral-800: hsl(16, 100%, 87%);
+    --color-coral-700: hsl(16, 100%, 81%);
+    --color-coral-600: hsl(16, 100%, 75%);
+    --color-coral-500: hsl(16, 100%, 69%);
+    --color-coral-400: hsl(14, 100%, 55%);
+    --color-coral-300: hsl(15, 100%, 43%);
+    --color-coral-200: hsl(15, 100%, 28%);
+    --color-coral-100: hsl(14, 100%, 13%);
+
+    --color-blush-900: hsl(345, 47%, 92%);
+    --color-blush-800: hsl(345, 49%, 84%);
+    --color-blush-700: hsl(345, 50%, 76%);
+    --color-blush-600: hsl(345, 51%, 68%);
+    --color-blush-500: hsl(345, 52%, 60%);
+    --color-blush-400: hsl(345, 56%, 48%);
+    --color-blush-300: hsl(345, 54%, 35%);
+    --color-blush-200: hsl(345, 50%, 23%);
+    --color-blush-100: hsl(345, 47%, 12%);
+
+    --color-magenta-haze-900: hsl(320, 39%, 92%);
+    --color-magenta-haze-800: hsl(320, 37%, 81%);
+    --color-magenta-haze-700: hsl(320, 35%, 69%);
+    --color-magenta-haze-600: hsl(320, 33%, 56%);
+    --color-magenta-haze-500: hsl(320, 30%, 45%);
+    --color-magenta-haze-400: hsl(320, 29%, 36%);
+    --color-magenta-haze-300: hsl(320, 27%, 27%);
+    --color-magenta-haze-200: hsl(320, 26%, 18%);
+    --color-magenta-haze-100: hsl(320, 25%, 9%);
+
+    --color-eggplant-900: hsl(320, 30%, 85%);
+    --color-eggplant-800: hsl(320, 30%, 70%);
+    --color-eggplant-700: hsl(320, 30%, 57%);
+    --color-eggplant-600: hsl(320, 30%, 45%);
+    --color-eggplant-500: hsl(320, 30%, 32%);
+    --color-eggplant-400: hsl(320, 31%, 26%);
+    --color-eggplant-300: hsl(320, 33%, 19%);
+    --color-eggplant-200: hsl(320, 40%, 13%);
+    --color-eggplant-100: hsl(320, 50%, 7%);
+}
+
+@layer body {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: var(--color-coral-700);
+    }
+}
