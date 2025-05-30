@@ -1,7 +1,12 @@
 <script>
-    import Searcher from "./Searcher.svelte";
-    import Weather from "./Weather.svelte";
+  import Searcher from './Searcher.svelte';
+  import Weather from './Weather.svelte';
+
+  let weatherData = null;
 </script>
 
-<Searcher/>
-<Weather/>
+<Searcher on:weatherLoaded={(e) => weatherData = e.detail.weatherData} />
+
+{#if weatherData}
+  <Weather {weatherData} />
+{/if}
